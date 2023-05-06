@@ -276,9 +276,10 @@ SE USA MEDIA QUERIS CON MIN WIDTH*/
 }
 @media screen and (max-width:500px) {.contenedor1
 {grid-template-columns: 1fr;
-    grid-template-rows: 0,4fr 0,5fr 0,6fr;
+    grid-template-rows: 0,4fr 0,5fr 0,1fr;
     grid-template-areas: 
     "header"
+    "main"
     "main"
     "footer";
 }
@@ -297,7 +298,7 @@ SE USA MEDIA QUERIS CON MIN WIDTH*/
 }
 .footer1{
     flex-direction: column;
-    justify-content:space-around ;
+    justify-content:center ;
 }
 
 }
@@ -306,6 +307,7 @@ SE USA MEDIA QUERIS CON MIN WIDTH*/
         grid-template-rows: 0,4fr 0,5fr 0,6fr;
         grid-template-areas: 
         "header"
+        "main"
         "main "
         "footer";
     }
@@ -338,7 +340,7 @@ SE USA MEDIA QUERIS CON MIN WIDTH*/
     background-color: red;
 color: white ;}
     a:link{text-decoration: none;
-    color: red;} /*no fueron visitados*/
+    color: white;} /*no fueron visitados*/
 
     a:visited{ color: white;}
     a:active{
@@ -369,6 +371,17 @@ color: white ;}
       CONTEINER los contenedores son bloques que vana contener toda la pagina, pueden tener un ancho variable dependiendo de la resolucion de pantalla del usuario
       CONTAINER
       CONTAINERFLUID*/
+
+      /*Copa Argentina*/
+    
+    .contenedorcopaargentina{
+        display: grid;
+
+      
+
+        justify-content: center;
+        padding: 50px;
+    }
 
 
 

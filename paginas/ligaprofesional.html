@@ -9,38 +9,121 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<body class="container-fluid--">
+<body>
 
-    <div>
+      <header class="headernosotros">
+        <h1>Liga Profesional</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="copalibertadores.html">Copa Libertadores</a></li>
+                <li><a href="../paginas/copaargentina.html">Copa Argentina</a></li>
+                <li><a href="../paginas/ligaprofesional.html">Liga Profesional</a></li>
+                <li><a href="../paginas/quienessomos.html"> Quienes somos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table class="table table-hover">
 
-        <header class="headernosotros">
-            <h1>Liga Profesional </h1> <!-- col 12, seria que va a tomar las 12 columnas para acomodar el titulo. boostrap tiene 12 columnas, se puede poner menos, nunca mas. class="encabezadotitulo col-12 col-md-8 col-lg-10"
-            Container row// o container-fluid-->
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../paginas/copalibertadores.html">Copa Libertadores</a></li>
-                    <li><a href="../paginas/copaargentina.html">Copa Argentina</a></li>
-                    <li><a href="ligaprofesional.html">Liga Profesional</a></li>
-                    <li><a href="../paginas/quienessomos.html"> Quienes somos</a></li>
-                    
-                </ul>
-            </nav>
-        </header>
+      <thead>
+          <tr>
+            <th scope="col">Posición</th>
+            <th scope="col">Equipo</th>
+            <th scope="col">Partidos jugados</th>
+            <th scope="col">Ganado</th>
+            <th scope="col">Empatado</th>
+            <th scope="col">Perdido</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Diferencia de goles</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>River Plate</td>
+            <td>14</td>
+            <td>11</td>
+            <td>1</td>
+            <td>2</td>
+            <td>34</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>San Lorenzo</td>
+            <td>14</td>
+            <td>8</td>
+            <td>4</td>
+            <td>2</td>
+            <td>28</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Defensa y Justicia</td>
+            <td>14</td>
+            <td>8</td>
+            <td>3</td>
+            <td>3</td>
+            <td>27</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Talleres</td>
+            <td>14</td>
+            <td>7</td>
+            <td>3</td>
+            <td>4</td>
+            <td>24</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Estudiantes</td>
+            <td>14</td>
+            <td>7</td>
+            <td>3</td>
+            <td>4</td>
+            <td>24</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+    </table>
+    <section> <h2>Goles del último partido</h2>
+
+          <div class="card" style="width: 18rem;">
+        <img src="../imagenes/river atletico.jpeg" class="card-img-top" alt="imgagen del partido">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://www.youtube.com/watch?v=WS5pGm0UDm0" class="btn btn-danger">Mejores jugadas</a>
+        </div>
+
+    </section>
 
 
-        <section class="grid row">
-            <div class="item1">Item 1</div>
-            <div class="item2 hijorebelde">Item 2</div>
-            <div class="item3">Item 3</div>
-            <div class="item4 hijorebelde">Item 4</div>
-            <div class="item5">Item 5</div>
+     <div class="divimagen">
+    <section class="contenedorgaleria">
+        <div class="imagen1"></div>
+        <div class="imagen2"></div>
+        <div class="imagen3"></div>
+        <div class="imagen4"></div>
+        <div class="imagen5"></div>
+        <div class="imagen6"></div>
+        
 
-
-
-            
-        </section>
+    </section>
     </div>
+
+      <footer class="footer1">
+        <img src="../imagenes/Escudo_del_C_A_River_Plate.svg.png" class="imagenfooter1"></img>
+          <p>&copy; Proyecto realizado para el curso de Desarrollo Web en Coderhouse</p> 
+      
+    
+            
+        
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> 
 </body>
 </html>

@@ -17,8 +17,8 @@
    
 
 </head>
+<body class="contenedor1">
 
-<div class="contenedor1">
 
     <header class="headernosotros">
         <nav>
@@ -32,58 +32,64 @@
         </nav>
 
     </header>
-    <body>
+    
     <main class="main1">
       <section class="container">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="imagenes/imagen5.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-item active">
+                  <img src="imagenes/imagen5.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/imagen2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/imagen3.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/pity.avif" class="d-block w-100" alt="...">
+                </div>
+              <div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
               </div>
-              <div class="carousel-item">
-                <img src="imagenes/imagen2.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="imagenes/imagen3.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="imagenes/pity.avif" class="d-block w-100" alt="...">
-              </div>
-            <div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Siguiente</span>
-            </button>
-          </div>
-        </section>
+            </div>
+        </div>
+      </section>
         <p class="mainparrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam, molestias eius dolores ipsum quas quod quasi corporis voluptatibus inventore quo, at amet dolore. Dolorum possimus beatae similique commodi corporis in ipsam ipsum! A, velit impedit enim ut voluptatem, accusantium provident repudiandae illum veniam possimus, natus eaque nesciunt molestiae reprehenderit?</p>
         
 
-        <img src="imagenes/Escudo_del_C_A_River_Plate.svg.png" alt="imagenmain" class="imagenmain1">
+        <img src="imagenes/Escudo_del_C_A_River_Plate.svg.png" alt="imagenmain" class="imagenmain1"></img>
     </main>
-
-
- 
     <footer class="footer1">
-        <img src="imagenes/Escudo_del_C_A_River_Plate.svg.png" alt="imagenfooter" class="imagenfooter1"
-          <p>&copy; Proyecto realizado para el curso de Desarrollo Web en Coderhouse</p>
-      
-    
-            
-        
+        <img src="imagenes/Escudo_del_C_A_River_Plate.svg.png" alt="imagenfooter" class="imagenfooter1"></img>
+          <p>&copy; Proyecto realizado para el curso de Desarrollo Web en Coderhouse</p>       
     </footer>
-  </div>
-
-
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>   
 </body>
 </html>
 
-<!-- ponerle grids a la maquetacion del diseño, flex y media queris para adaptarlo-->
+<!-- ponerle grids a la maquetacion del diseño, flex y media queris para adaptarlo
+Lo que si:
+
+Habría que agregar comentarios en todos los html para marcar las diferentes secciones de cada documento.
+En index.html está mal ubicada la etiqueta de apertura <body>.
+  En copalibertadores.html falta la etiqueta de cierre </footer>
+  También, en index.html y copalibertadores.html hay etiquetas "img" a las que le falta la llave de cierre ( > ).
+  A su vez, también, en ligaprofesional.html e index.html hay un "div" contenedor de todas las etiquetas. 👈 Esto no sería algo recomendable ya que la etiqueta "body" debería ser la contenedora de todo lo visible del sitio web.
+  Todos los html deberían tener las mismas etiquetas semánticas para estructurar cada documento, es decir, "header", "main" y "footer". 👉 Esto no se da en todos los html.
+  En quienessomos.html faltó linkear el archivo de estilos.
+  
+  En cuanto a estilos:
+  
+  Faltó agregar bootstrap y alguno de sus componentes.
+  En copalibertadres.html faltaría agregar la imagen en el "footer". 
+  En copaargentina.html habría que agregar contenido y acomodar correctamente lo que está implementado.
+  Falta definir una tipografía y una paleta de colores para el sitio web.
+  Habría que revisar el responsive de copalibertadores.html ya que se desconfigura.-->
